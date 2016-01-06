@@ -1,0 +1,23 @@
+{
+    "__classname__": "Academy", 
+    "__module__": "models", 
+    "departments": {}, 
+    "done": false, 
+    "employees": [], 
+    "eng_name": "www.buaa.edu.cn", 
+    "name": "数学与系统科学学院", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "buaa", 
+    "url": "http://www.buaa.edu.cn/xyykc/bhyxjs/lgk/66809.htm", 
+    "web_engine": "urllib2"
+}

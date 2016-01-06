@@ -1,0 +1,8 @@
+*.html
+*.csv
+*.pyc
+*.o
+*.d
+*.tmp
+*.pdf
+*.png

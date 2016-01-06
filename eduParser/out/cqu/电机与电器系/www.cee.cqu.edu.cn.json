@@ -1,0 +1,24 @@
+{
+    "__classname__": "Academy", 
+    "__module__": "models", 
+    "departments": {}, 
+    "done": false, 
+    "employees": [], 
+    "eng_name": "www.cee.cqu.edu.cn", 
+    "name": "电机与电器系", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "cee", 
+    "url": "http://www.cee.cqu.edu.cn/bigclass.asp?typeid=6&bigclassid=45", 
+    "web_engine": "urllib2"
+}

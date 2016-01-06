@@ -1,0 +1,22 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "", 
+    "done": false, 
+    "eng_name": "lzu.edu.cn", 
+    "name": "兰州大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "lzu", 
+    "url": "http://www.lzu.edu.cn/"
+}

@@ -1,0 +1,23 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.jlu.edu.cn/jgsz.htm", 
+    "done": false, 
+    "eng_name": "jlu.edu.cn", 
+    "name": "吉林大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "jlu", 
+    "url": "http://www.jlu.edu.cn/"
+}

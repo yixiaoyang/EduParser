@@ -1,0 +1,390 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "教授":"http://sist.ustc.edu.cn/szdw/jiaoshou/201009/t20100902_34161.html",
+                "副教授": "http://sist.ustc.edu.cn/szdw/fjs/201209/t20120914_139488.html"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "sist.ustc.edu.cn", 
+            "name": "信息科学技术学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": "table"
+            }, 
+            "sname": "sist", 
+            "url": "http://sist.ustc.edu.cn/", 
+            "web_engine": "urllib2"
+        },
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://auto.ustc.edu.cn/listitem.php?ltid=3"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "auto.ustc.edu.cn", 
+            "name": "自动化系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"width":"25%"}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "td", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""   
+            }, 
+            "sname": "auto", 
+            "url": "http://auto.ustc.edu.cn/", 
+            "web_engine": "urllib2"
+        },
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://physics.ustc.edu.cn/teach/bdylb.htm"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "physics.ustc.edu.cn", 
+            "name": "物理学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"width":"900"}, 
+                "zone_index": 0, 
+                "zone_tag": "table"
+            }, 
+            "sname": "physics", 
+            "url": "http://physics.ustc.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://chem.ustc.edu.cn/szdw_16/jszb/201211/t20121106_143706.html"
+            }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "chem.ustc.edu.cn", 
+            "name": "化学系", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"class":"ejcontent"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "chem", 
+            "url": "http://chem.ustc.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://mse.ustc.edu.cn/szdw/jzgylb/201410/t20141020_203532.html"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "mse.ustc.edu.cn", 
+            "name": "材料科学与工程系", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"class":"Custom_UnionStyle"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "mse", 
+            "url": "http://mse.ustc.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "教授":"http://eeis.ustc.edu.cn/szdw/bd/",
+                "副教授":"http://eeis.ustc.edu.cn/szdw/fjs/",
+                "其他教师":"http://eeis.ustc.edu.cn/szdw/js/"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "eeis.ustc.edu.cn", 
+            "name": "电子工程与信息科学系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"id":"latest-blog"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "eeis", 
+            "url": "http://eeis.ustc.edu.cn/", 
+            "web_engine": "selenium"
+        },
+         {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {"all":"http://math.ustc.edu.cn/new/teachers.php"}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "math.ustc.edu.cn", 
+            "name": "数学科学学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"width":"96%"}, 
+                "zone_index": 0, 
+                "zone_tag": "table"
+            }, 
+            "sname": "math", 
+            "url": "http://math.ustc.edu.cn/new/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://cs.ustc.edu.cn/szdw/bsh/201007/t20100701_23943.html"
+            }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "cs.ustc.edu.cn", 
+            "name": "计算机科学与技术学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"width":"20%"}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "td", 
+                "zone_attr": {"width":"271"}, 
+                "zone_index": 0, 
+                "zone_tag": "td"
+            }, 
+            "sname": "cs", 
+            "url": "http://cs.ustc.edu.cn/", 
+            "web_engine": "selenium"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "实验高能物理":"http://hepg-work.ustc.edu.cn/group/facultyclass.php?class=1",
+                "理论粒子物理与核物理":"http://hepg-work.ustc.edu.cn/group/facultyclass.php?class=2",
+                "核技术应用":"http://hepg-work.ustc.edu.cn/group/facultyclass.php?class=3",
+                "资深教授":"http://hepg-work.ustc.edu.cn/group/facultyclass.php?class=4"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "hepg-work.ustc.edu.cn", 
+            "name": "粒子物理和核物理实验室", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"id":"member"}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "div", 
+                "zone_attr": {"id":"content"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "hepg-work", 
+            "url": "http://hepg-work.ustc.edu.cn", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://lbpp.ustc.edu.cn/do/alonepage.php?id=24"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "lbpp.ustc.edu.cn", 
+            "name": "等离子体物理实验室", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"middle"}, 
+                "zone_index": 0, 
+                "zone_tag": "td"
+            }, 
+            "sname": "lbpp", 
+            "url": "http://lbpp.ustc.edu.cn", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "mphy.ustc.edu.cn", 
+            "name": "近代物理系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "mphy", 
+            "url": "http://mphy.ustc.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {"all":"http://dcp.ustc.edu.cn/szdw/xszb/201311/t20131107_177804.html"}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "dcp.ustc.edu.cn", 
+            "name": "化学物理系", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"width":"875"}, 
+                "zone_index": 0, 
+                "zone_tag": "td"
+            }, 
+            "sname": "dcp", 
+            "url": "http://dcp.ustc.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "1":"http://phys.ustc.edu.cn/?lan=&a=szdw",
+                "2":"http://phys.ustc.edu.cn/?lan=&a=szdw&b=&offset=50"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "phys.ustc.edu.cn", 
+            "name": "物理系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"id":"right"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "phys", 
+            "url": "http://phys.ustc.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://env.ustc.edu.cn/szll/jgml/201503/t20150309_212188.html"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "env.ustc.edu.cn", 
+            "name": "环境科学与光电技术学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"Custom_UnionStyle"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "env", 
+            "url": "http://env.ustc.edu.cn", 
+            "web_engine": "urllib2"
+        }
+    ], 
+    "academiesUrl": "http://www.ustc.edu.cn/yxjs/", 
+    "done": false, 
+    "eng_name": "ustc.edu.cn", 
+    "name": "中国科学技术大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "area", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": "map"
+    }, 
+    "sname": "ustc", 
+    "url": "http://www.ustc.edu.cn/", 
+    "web_engine": "selenium"
+}

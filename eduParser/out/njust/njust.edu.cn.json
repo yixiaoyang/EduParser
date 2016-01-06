@@ -1,0 +1,22 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "", 
+    "done": false, 
+    "eng_name": "njust.edu.cn", 
+    "name": "南京理工大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "njust", 
+    "url": "http://www.njust.edu.cn/"
+}

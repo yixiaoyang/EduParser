@@ -1,0 +1,87 @@
+2015年12月11日 All:
+  ✔ [ #][ #][  0] 清华大学 , tsinghua.edu.cn , http://www.tsinghua.edu.cn/publish/newthu/index.html  @done (15-12-11 19:16)
+  ✔ [ #][ #][  1] 北京大学 , pku.edu.cn , http://www.pku.edu.cn/  @done (15-12-11 19:16)
+  ✘ [ #][ #][  2] 中国农业大学 , www.cau.edu.cn , http://www.cau.edu.cn/ @cancelled (15-12-11 19:17)
+  ✔ [ #][ #][  3] 北京航空航天大学 , buaa.edu.cn , http://www.buaa.edu.cn/  @done (15-12-11 19:16)
+  ✔ [ #][ #][  4] 北京理工大学 , bit.edu.cn , http://www.bit.edu.cn/  @done (15-12-11 19:16)
+  ✔ [ #][ #][  5] 上海交通大学 , sjtu.edu.cn , http://www.sjtu.edu.cn/  @done (15-12-11 19:16)
+  ✔ [ #][ #][  6] 复旦大学 , fudan.edu.cn , http://www.fudan.edu.cn/  @done (15-12-11 19:16)
+  ✔ [ #][ #][  7] 同济大学 , tongji.edu.cn , http://www.tongji.edu.cn/  @done (15-12-11 19:16)
+  ☐ [  ][ #][  8] 南开大学 , nankai.edu.cn , http://www.nankai.edu.cn/ 
+  ☐ [  ][ #][  9] 天津大学 , tju.edu.cn , http://www.tju.edu.cn/ 
+  ☐ [  ][ #][ 10] 重庆大学 , cqu.edu.cn , http://www.cqu.edu.cn/ 
+  ☐ [  ][ #][ 11] 东北大学 , neu.edu.cn , http://www.neu.edu.cn/ 
+  ☐ [  ][  ][ 12] 东北大学秦皇岛分校 , www.neuq.edu.cn , http://www.neuq.edu.cn/ 
+  ☐ [  ][  ][ 13] 大连理工大学 , dlut.edu.cn , http://www.dlut.edu.cn/ 
+  ☐ [  ][ #][ 14] 吉林大学 , jlu.edu.cn , http://www.jlu.edu.cn/ 
+  ✔ [ #][ #][ 15] 哈尔滨工业大学 , hit.edu.cn , http://www.hit.edu.cn/  @done (15-12-11 19:17)
+  ☐ [  ][ #][ 16] 哈尔滨工业大学(威海) , hitwh.edu.cn , http://www.hitwh.edu.cn/ 
+  ✔ [ #][ #][ 17] 南京大学 , nju.edu.cn , http://www.nju.edu.cn/  @done (15-12-11 19:17)
+  ☐ [  ][ #][ 18] 东南大学 , seu.edu.cn , http://www.seu.edu.cn/ 
+  ✔ [ #][ #][ 19] 浙江大学 , zju.edu.cn , http://www.zju.edu.cn/  @done (15-12-11 19:17)
+  ✔ [ #][ #][ 20] 中国科学技术大学 , ustc.edu.cn , http://www.ustc.edu.cn/  @done (15-12-11 19:17)
+  ☐ [  ][  ][ 21] 厦门大学 , xmu.edu.cn , http://www.xmu.edu.cn/ 
+  ☐ [  ][  ][ 22] 山东大学 , sdu.edu.cn , http://www.sdu.edu.cn/ 
+  ☐ [  ][  ][ 23] 中国海洋大学 , ouc.edu.cn , http://www.ouc.edu.cn/ 
+  ☐ [  ][ #][ 24] 山东大学(威海) , wh.sdu.edu.cn , http://www.wh.sdu.edu.cn/ 
+  ☐ [  ][  ][ 25] 南京航空航天大学 , nuaa.edu.cn , http://www.nuaa.edu.cn/ 
+  ☐ [  ][  ][ 26] 南京理工大学 , njust.edu.cn , http://www.njust.edu.cn/ 
+  ☐ [  ][ #][ 27] 武汉大学 , whu.edu.cn , http://www.whu.edu.cn/ 
+  ☐ [  ][ #][ 28] 华中科技大学 , hust.edu.cn , http://www.hust.edu.cn/ 
+  ☐ [  ][ #][ 29] 湖南大学 , hnu.edu.cn , http://www.hnu.edu.cn/ 
+  ☐ [  ][ #][ 30] 中南大学 , csu.edu.cn , http://www.csu.edu.cn/ 
+  ☐ [  ][  ][ 31] 国防科技大学 , nudt.edu.cn , http://www.nudt.edu.cn/ 
+  ☐ [  ][ #][ 32] 华南理工大学 , scut.edu.cn , http://www.scut.edu.cn/ 
+  ☐ [  ][  ][ 33] 中山大学 , sysu.edu.cn , http://www.sysu.edu.cn/ 
+  ☐ [  ][ #][ 34] 四川大学 , scu.edu.cn , http://www.scu.edu.cn/ 
+  ☐ [  ][ #][ 35] 电子科技大学 , uestc.edu.cn , http://www.uestc.edu.cn/ 
+  ✔ [ #][ #][ 36] 西安交通大学 , xjtu.edu.cn , http://www.xjtu.edu.cn/  @done (15-12-11 19:17)
+  ☐ [  ][  ][ 37] 西北工业大学 , nwpu.edu.cn , http://www.nwpu.edu.cn/ 
+  ☐ [  ][  ][ 38] 兰州大学 , lzu.edu.cn , http://www.lzu.edu.cn/ 
+
+
+2015年12月11日:
+  whu/whu.edu.cn.json:
+    ✔ [ #][  0] 数学与统计学院,maths.whu.edu.cn,http://maths.whu.edu.cn/ @done (15-12-11 19:18)
+    ✔ [ #][  1] 物理科学与技术学院,physics.whu.edu.cn,http://physics.whu.edu.cn/ @done (15-12-11 19:18)
+    ✔ [ #][  2] 化学与分子科学学院,www.chem.whu.edu.cn,http://www.chem.whu.edu.cn/ @done (15-12-11 19:18)
+    ☐ [  ][  3] 资源与环境科学学院,sres.whu.edu.cn,http://sres.whu.edu.cn/
+    ☐ [  ][  4] 电气工程学院,dqgcxy.whu.edu.cn,http://dqgcxy.whu.edu.cn/
+    ☐ [  ][  5] 电子信息学院,eis.whu.edu.cn,http://eis.whu.edu.cn/
+    ☐ [  ][  6] 计算机学院,cs.whu.edu.cn,http://cs.whu.edu.cn/
+
+2015/12/12 重新生成数据:
+  ✔ [ #][ #][  0] 清华大学 , tsinghua.edu.cn , http://www.tsinghua.edu.cn/publish/newthu/index.html @done (15-12-12 18:44)
+  ✔ [ #][ #][  1] 北京大学 , pku.edu.cn , http://www.pku.edu.cn/  @done (15-12-11 19:16)
+  ✔ [ #][ #][  2] 中国农业大学 , www.cau.edu.cn , http://www.cau.edu.cn/ @done (15-12-12 18:44)
+  ✔ [ #][ #][  3] 北京航空航天大学 , buaa.edu.cn , http://www.buaa.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][  4] 北京理工大学 , bit.edu.cn , http://www.bit.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][  5] 上海交通大学 , sjtu.edu.cn , http://www.sjtu.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][  6] 复旦大学 , fudan.edu.cn , http://www.fudan.edu.cn/ @done (15-12-12 18:44)
+  ✔ [ #][ #][  7] 同济大学 , tongji.edu.cn , http://www.tongji.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][  8] 南开大学 , nankai.edu.cn , http://www.nankai.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][  9] 天津大学 , tju.edu.cn , http://www.tju.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][ 15] 哈尔滨工业大学 , hit.edu.cn , http://www.hit.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][ 17] 南京大学 , nju.edu.cn , http://www.nju.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][ 19] 浙江大学 , zju.edu.cn , http://www.zju.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][ 20] 中国科学技术大学 , ustc.edu.cn , http://www.ustc.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][ 27] 武汉大学 , whu.edu.cn , http://www.whu.edu.cn/ @done (15-12-13 18:32)
+  ✔ [ #][ #][ 36] 西安交通大学 , xjtu.edu.cn , http://www.xjtu.edu.cn/ @done (15-12-13 18:32)
+
+
+2015/12/13:
+  ☐ 北航化工与环境学院research一栏错误
+  email大小写不能更改:
+    ✔ [ #][ #][  3] 北京航空航天大学 , buaa.edu.cn , http://www.buaa.edu.cn/ @done (15-12-13 19:20)
+    ✔ [ #][ #][  4] 北京理工大学 , bit.edu.cn , http://www.bit.edu.cn/ @done (15-12-13 20:34)
+    ✔ [ #][ #][  5] 上海交通大学 , sjtu.edu.cn , http://www.sjtu.edu.cn/ @done (15-12-13 20:39)
+    ✔ [ #][ #][  7] 同济大学 , tongji.edu.cn , http://www.tongji.edu.cn/ @done (15-12-13 21:19)
+    ✔ [ #][ #][  8] 南开大学 , nankai.edu.cn , http://www.nankai.edu.cn/ @done (15-12-13 21:35)
+    ✔ [ #][ #][  9] 天津大学 , tju.edu.cn , http://www.tju.edu.cn/ @done (15-12-13 21:40)
+    ✔ [ #][ #][ 17] 南京大学 , nju.edu.cn , http://www.nju.edu.cn/ @done (15-12-13 21:42)
+    ✔ [ #][ #][ 20] 中国科学技术大学 , ustc.edu.cn , http://www.ustc.edu.cn/ @done (15-12-13 21:47)
+    ✔ [ #][ #][ 27] 武汉大学 , whu.edu.cn , http://www.whu.edu.cn/ @done (15-12-13 21:53)
+    ✔ [ #][ #][ 36] 西安交通大学 , xjtu.edu.cn , http://www.xjtu.edu.cn/ @done (15-12-13 22:05)
+
+2015/12/18:
+  ☐ nju环境数据缺失问题

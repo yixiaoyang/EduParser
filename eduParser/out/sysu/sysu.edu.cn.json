@@ -1,0 +1,235 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "教授":"http://math.sysu.edu.cn/main/TeachersForce/TeaList.aspx?duty=%BD%CC%CA%DA",
+                "副教授":"http://math.sysu.edu.cn/main/TeachersForce/TeaList.aspx?duty=%B8%B1%BD%CC%CA%DA",
+                "高级讲师":"http://math.sysu.edu.cn/main/TeachersForce/TeaList.aspx?duty=%B8%DF%BC%B6%BD%B2%CA%A6",
+                "讲师":"http://math.sysu.edu.cn/main/TeachersForce/TeaList.aspx?duty=%BD%B2%CA%A6",
+                "博士后":"http://math.sysu.edu.cn/main/TeachersForce/TeaList.aspx?duty=%B2%A9%CA%BF%BA%F3"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "math.sysu.edu.cn", 
+            "name": "数学与计算科学学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"class":"tr1"}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"id":"ctl00_Content_list"}, 
+                "zone_index": 0, 
+                "zone_tag": "table"
+            }, 
+            "sname": "math", 
+            "url": "http://math.sysu.edu.cn", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://spe.sysu.edu.cn/faculty"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "spe.sysu.edu.cn", 
+            "name": "物理学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"property":false}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"view-content"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "spe", 
+            "url": "http://spe.sysu.edu.cn", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "spe.sysu.edu.cn", 
+            "name": "材料科学与工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "spe", 
+            "url": "http://spe.sysu.edu.cn", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://ce.sysu.edu.cn/TeachersTeam/Index.aspx"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "ce.sysu.edu.cn", 
+            "name": "化学与化学工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": ["li"], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"main_content_container_left left_szll_faculties floatfix"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "ce", 
+            "url": "http://ce.sysu.edu.cn", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://sdcs.sysu.edu.cn/?p=648&lang=en"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "sdcs.sysu.edu.cn", 
+            "name": "数据科学与计算机学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"class":"aligncenter"}, 
+                "zone_index": 0, 
+                "zone_tag": "table"
+            }, 
+            "sname": "sdcs", 
+            "url": "http://sdcs.sysu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {"all":"http://202.116.70.152/shiziduiwu.htm"}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "zsu.sysu.edu.cn", 
+            "name": "水资源与环境系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"rowspan":"3"}, 
+                "zone_index": 0, 
+                "zone_tag": "td"
+            }, 
+            "sname": "zsu.sysu.edu.cn", 
+            "url": "http://202.116.70.152/", 
+            "web_engine": "selenium"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://sese.sysu.edu.cn/Teachers/Index.aspx"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "sese.sysu.edu.cn", 
+            "name": "环境科学与工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"content f_l"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "sese", 
+            "url": "http://sese.sysu.edu.cn", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "教授":"http://sass.sysu.edu.cn/cn/cn03/cn03a/index.htm",
+                "博士后":"http://sass.sysu.edu.cn/cn/cn03/cn03c/index.htm"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "sass.sysu.edu.cn", 
+            "name": "物理与天文学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"lists"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "sass", 
+            "url": "http://sass.sysu.edu.cn/", 
+            "web_engine": "urllib2"
+        }
+    ], 
+    "academiesUrl": "http://www.sysu.edu.cn/2012/cn/yx/index.htm", 
+    "done": false, 
+    "eng_name": "sysu.edu.cn", 
+    "name": "中山大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "a", 
+        "zone_attr": {
+            "id": "mainbody"
+        }, 
+        "zone_index": 0, 
+        "zone_tag": "div"
+    }, 
+    "sname": "sysu", 
+    "url": "http://www.sysu.edu.cn/"
+}

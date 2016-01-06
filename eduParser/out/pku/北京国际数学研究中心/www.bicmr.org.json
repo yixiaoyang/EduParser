@@ -1,0 +1,44 @@
+{
+    "__classname__": "Academy", 
+    "__module__": "models", 
+    "departments": {
+        "Faculty1": "http://bicmr.pku.edu.cn/people/faculty/list_28_1.html", 
+        "Faculty2": "http://bicmr.pku.edu.cn/people/faculty/list_28_2.html", 
+        "Faculty3": "http://bicmr.pku.edu.cn/people/faculty/list_28_3.html", 
+        "Faculty4": "http://bicmr.pku.edu.cn/people/faculty/list_28_4.html"
+    }, 
+    "departmentsRule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "departmentsUrl": "", 
+    "done": false, 
+    "employees": [], 
+    "eng_name": "www.bicmr.org", 
+    "hasDepartments": false, 
+    "name": "北京国际数学研究中心", 
+    "parser": "SimpleTableParser", 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {
+            "class": "person-container"
+        }, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "div", 
+        "zone_attr": {
+            "class": "col_9"
+        }, 
+        "zone_tag": "div"
+    }, 
+    "sname": "bicmr", 
+    "url": "http://www.bicmr.org/", 
+    "web_engine": "urllib2"
+}

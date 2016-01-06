@@ -1,0 +1,23 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.hitwh.edu.cn/Organizations.asp", 
+    "done": false, 
+    "eng_name": "hitwh.edu.cn", 
+    "name": "哈尔滨工业大学(威海)", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "hitwh", 
+    "url": "http://www.hitwh.edu.cn/"
+}

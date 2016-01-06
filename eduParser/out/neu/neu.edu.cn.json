@@ -1,0 +1,25 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.neu.edu.cn/org_index.html#collegeNav", 
+    "done": false, 
+    "eng_name": "neu.edu.cn", 
+    "name": "东北大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [
+            "td"
+        ], 
+        "select": [], 
+        "tag_name": "a", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "neu", 
+    "url": "http://www.neu.edu.cn/"
+}

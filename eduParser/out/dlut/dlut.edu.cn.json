@@ -1,0 +1,23 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "", 
+    "done": false, 
+    "eng_name": "dlut.edu.cn", 
+    "name": "大连理工大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "dlut", 
+    "url": "http://www.dlut.edu.cn/"
+}

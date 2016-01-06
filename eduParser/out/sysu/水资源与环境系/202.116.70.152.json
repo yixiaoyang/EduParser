@@ -1,0 +1,24 @@
+{
+    "__classname__": "Academy", 
+    "__module__": "models", 
+    "departments": {}, 
+    "done": false, 
+    "employees": [], 
+    "eng_name": "202.116.70.152", 
+    "name": "水资源与环境系", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "202", 
+    "url": "http://202.116.70.152/", 
+    "web_engine": "urllib2"
+}

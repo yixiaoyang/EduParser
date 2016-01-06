@@ -1,0 +1,22 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.csu.edu.cn/jgsz/ejxy.htm", 
+    "done": false, 
+    "eng_name": "csu.edu.cn", 
+    "name": "中南大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "csu", 
+    "url": "http://www.csu.edu.cn/"
+}

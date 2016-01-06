@@ -1,0 +1,22 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "", 
+    "done": false, 
+    "eng_name": "nwpu.edu.cn", 
+    "name": "西北工业大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "nwpu", 
+    "url": "http://www.nwpu.edu.cn/"
+}

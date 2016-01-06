@@ -1,0 +1,412 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {"all":"http://sci.cqu.edu.cn/Members.aspx"}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "sci.cqu.edu.cn", 
+            "name": "数学与统计学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"content"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "sci", 
+            "url": "http://sci.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "page1":"http://phys.cqu.edu.cn/about/shizililiang/",
+                "page2":"http://phys.cqu.edu.cn/about/shizililiang/index_2.html"
+            }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "phys.cqu.edu.cn", 
+            "name": "物理学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"rmain"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "phys", 
+            "url": "http://phys.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "hgxy.cqu.edu.cn", 
+            "name": "化学化工学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "hgxy", 
+            "url": "http://hgxy.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cee.cqu.edu.cn", 
+            "name": "电气工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "cee", 
+            "url": "http://www.cee.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cee.cqu.edu.cn", 
+            "name": "电机与电器系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "cee", 
+            "url": "http://www.cee.cqu.edu.cn/bigclass.asp?typeid=6&bigclassid=45", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cee.cqu.edu.cn", 
+            "name": "电力系统及其自动化系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "cee", 
+            "url": "http://www.cee.cqu.edu.cn/bigclass.asp?typeid=6&bigclassid=46", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cee.cqu.edu.cn", 
+            "name": "建筑电气与智能化系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "cee", 
+            "url": "http://www.cee.cqu.edu.cn/bigclass.asp?typeid=6&bigclassid=50", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {"all":"http://teacher.cme.cqu.edu.cn/jxdzgcx.asp"}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cme.cqu.edu.cn", 
+            "name": "机电工程系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "cme", 
+            "url": "http://www.cme.cqu.edu.cn/W_SZDW.aspx?ID=1136", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cme.cqu.edu.cn:81", 
+            "name": "机电工程研究所", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "cme", 
+            "url": "http://www.cme.cqu.edu.cn:81/cmeweb/contoller/main.php?level=2&act=xs&id=382&lx=many&catid=17&extflag=2&szllflag=", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://www.res.cqu.edu.cn/talentlist.php"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.res.cqu.edu.cn", 
+            "name": "资源及环境科学学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"width":"738"}, 
+                "zone_index": 0, 
+                "zone_tag": "td"
+            },
+            "sname": "res", 
+            "url": "http://www.res.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "学院办公室":"http://www.cmse.cqu.edu.cn/?idx=teacher&act=list&department=0",
+                "冶金工程系":"http://www.cmse.cqu.edu.cn/?idx=teacher&act=list&department=1",
+                "材料成型及控制工程系":"http://www.cmse.cqu.edu.cn/?idx=teacher&act=list&department=2",
+                "材料加工工程系":"http://www.cmse.cqu.edu.cn/?idx=teacher&act=list&department=3",
+                "材料科学系":"http://www.cmse.cqu.edu.cn/?idx=teacher&act=list&department=4",
+                "建筑材料工程系":"http://www.cmse.cqu.edu.cn/?idx=teacher&act=list&department=5",
+                "装饰材料与工程系":"http://www.cmse.cqu.edu.cn/?idx=teacher&act=list&department=6",
+                "中心实验室":"http://www.cmse.cqu.edu.cn/?idx=teacher&act=list&department=7"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cmse.cqu.edu.cn", 
+            "name": "材料科学与工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"UserList"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "cmse", 
+            "url": "http://www.cmse.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "给排水科学与工程":"http://chenghuan.cqu.edu.cn/%E5%B8%88%E8%B5%84%E9%98%9F%E4%BC%8D/%E7%BB%99%E6%8E%92%E6%B0%B4%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E7%A8%8B/tabid/164/language/en-US/Default.aspx",
+                "建筑环境与设备工程":"http://chenghuan.cqu.edu.cn/%E5%B8%88%E8%B5%84%E9%98%9F%E4%BC%8D/%E5%BB%BA%E7%AD%91%E7%8E%AF%E5%A2%83%E4%B8%8E%E8%AE%BE%E5%A4%87%E5%B7%A5%E7%A8%8B/tabid/165/language/en-US/Default.aspx",
+                "环境工程":"http://chenghuan.cqu.edu.cn/%E5%B8%88%E8%B5%84%E9%98%9F%E4%BC%8D/%E7%8E%AF%E5%A2%83%E5%B7%A5%E7%A8%8B/tabid/166/language/en-US/Default.aspx"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "chenghuan.cqu.edu.cn", 
+            "name": "城市建设与环境工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"id":"dnn_ContentPane"}, 
+                "zone_index": 0, 
+                "zone_tag": "td"
+            }, 
+            "sname": "chenghuan", 
+            "url": "http://chenghuan.cqu.edu.cn/", 
+            "web_engine": "selenium"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "博导":"http://www.cs.cqu.edu.cn/public/szdw/bsds"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cs.cqu.edu.cn", 
+            "name": "计算机学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"class":"panel"}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "div", 
+                "zone_attr": {"id":"main"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "cs", 
+            "url": "http://www.cs.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "硕导":"http://www.cs.cqu.edu.cn/public/szdw/ssds"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cs.cqu.edu.cn", 
+            "name": "计算机学院2", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"class":"rowdata"}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"id":"main"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "cs", 
+            "url": "http://www.cs.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "教授博导":"http://accu.cqu.edu.cn/web/allprof/index.jhtml",
+                "讲师":"http://accu.cqu.edu.cn/web/teacher/index.jhtml"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "accu.cqu.edu.cn", 
+            "name": "自动化学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "li", 
+                "zone_attr": {"class":"jctw"}, 
+                "zone_index": 0, 
+                "zone_tag": "ul"
+            }, 
+            "sname": "accu", 
+            "url": "http://accu.cqu.edu.cn/", 
+            "web_engine": "urllib2"
+        }
+    ], 
+    "academiesUrl": "http://www.cqu.edu.cn/Channel/CquTeachingUnit/1/index.html", 
+    "done": false, 
+    "eng_name": "cqu.edu.cn", 
+    "name": "重庆大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {
+            "class": "size12", 
+            "target": "_blank"
+        }, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "a", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "cqu", 
+    "url": "http://www.cqu.edu.cn/"
+}

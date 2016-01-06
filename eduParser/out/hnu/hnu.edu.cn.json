@@ -1,0 +1,22 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.hnu.edu.cn/html/xueyuanyuxueke/xueyuanshezhi/", 
+    "done": false, 
+    "eng_name": "hnu.edu.cn", 
+    "name": "湖南大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "hnu", 
+    "url": "http://www.hnu.edu.cn/"
+}

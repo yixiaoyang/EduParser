@@ -1,0 +1,159 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [ 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://physics.nju.edu.cn/ry/qymc.htm"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "physics.nju.edu.cn", 
+            "name": "物理学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"id":"phy-main-content"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "physics", 
+            "url": "http://physics.nju.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "博导":"http://njumaths.nju.edu.cn/",
+                "教授":"http://njumaths.nju.edu.cn/",
+                "副教授":"http://njumaths.nju.edu.cn/",
+                "讲师助教":"http://njumaths.nju.edu.cn/"                
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "njumaths.nju.edu.cn", 
+            "name": "数学系", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "njumaths", 
+            "url": "http://njumaths.nju.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://cs.nju.edu.cn/teacher/default.aspx"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "cs.nju.edu.cn", 
+            "name": "计算机科学与技术系", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"id":"teachersList"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "cs", 
+            "url": "http://cs.nju.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://chem.nju.edu.cn/staff/szll.asp"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "chem.nju.edu.cn", 
+            "name": "化学化工学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"width":"80%"}, 
+                "zone_index": 0, 
+                "zone_tag": "td"
+            }, 
+            "sname": "chem", 
+            "url": "http://chem.nju.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://hjxy.nju.edu.cn/szdw/"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "hjxy.nju.edu.cn", 
+            "name": "环境学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"pad60RL"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "hjxy", 
+            "url": "http://hjxy.nju.edu.cn/", 
+            "web_engine": "urllib2"
+        }
+    ], 
+    "academiesUrl": "http://www.nju.edu.cn/27/list.htm", 
+    "done": false, 
+    "eng_name": "nju.edu.cn", 
+    "name": "南京大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "a", 
+        "zone_attr": {
+            "id": "wp_content_w8_0"
+        }, 
+        "zone_index": 0, 
+        "zone_tag": "div"
+    }, 
+    "sname": "nju", 
+    "url": "http://www.nju.edu.cn/"
+}

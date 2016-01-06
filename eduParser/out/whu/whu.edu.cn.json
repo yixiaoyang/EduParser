@@ -1,0 +1,208 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://maths.whu.edu.cn/shizililiang/"
+            },
+            "done": false, 
+            "employees": [], 
+            "eng_name": "maths.whu.edu.cn", 
+            "name": "数学与统计学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a",
+                "zone_attr": {"width":"1003"},
+                "zone_index": 1,
+                "zone_tag": "table"
+            }, 
+            "sname": "maths", 
+            "url": "http://maths.whu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "教职员工":"http://physics.whu.edu.cn/shizi/jiaoshi/"
+            },
+            "done": false, 
+            "employees": [], 
+            "eng_name": "physics.whu.edu.cn", 
+            "name": "物理科学与技术学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a",
+                "zone_attr": {"class":"page_right"},
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "physics", 
+            "url": "http://physics.whu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://www.chem.whu.edu.cn/szdw.htm"
+            },
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.chem.whu.edu.cn", 
+            "name": "化学与分子科学学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a",
+                "zone_attr": {"class":"list_right"},
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "chem", 
+            "url": "http://www.chem.whu.edu.cn/", 
+            "web_engine": "selenium"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://sres.whu.edu.cn/szdw.asp"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "sres.whu.edu.cn", 
+            "name": "资源与环境科学学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"width":"90%"}, 
+                "zone_index": 0, 
+                "zone_tag": "td"
+            }, 
+            "sname": "sres", 
+            "url": "http://sres.whu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://dqgcxy.whu.edu.cn/xygk/szdw/"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "dqgcxy.whu.edu.cn", 
+            "name": "电气工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"listbrc"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "dqgcxy", 
+            "url": "http://dqgcxy.whu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://eis.whu.edu.cn/channels/9.html"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "eis.whu.edu.cn", 
+            "name": "电子信息学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"sub_righm"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "eis", 
+            "url": "http://eis.whu.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://cs.whu.edu.cn/plus/list.php?tid=36"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "cs.whu.edu.cn", 
+            "name": "计算机学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"content fn_clear"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "cs", 
+            "url": "http://cs.whu.edu.cn/", 
+            "web_engine": "urllib2"
+        }
+    ], 
+    "academiesUrl": "http://www.whu.edu.cn/jgsz/yxsz.htm", 
+    "done": false, 
+    "eng_name": "whu.edu.cn", 
+    "name": "武汉大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "a", 
+        "zone_attr": {
+            "class": "scm-content-p"
+        }, 
+        "zone_index": 0, 
+        "zone_tag": "div"
+    }, 
+    "sname": "whu", 
+    "url": "http://www.whu.edu.cn/"
+}

@@ -1,0 +1,23 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "", 
+    "done": false, 
+    "eng_name": "ouc.edu.cn", 
+    "name": "中国海洋大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "ouc", 
+    "url": "http://www.ouc.edu.cn/"
+}

@@ -1,0 +1,22 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.scu.edu.cn/portal2013/jg/xxjg/I081301index_1.htm", 
+    "done": false, 
+    "eng_name": "scu.edu.cn", 
+    "name": "四川大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "scu", 
+    "url": "http://www.scu.edu.cn/"
+}

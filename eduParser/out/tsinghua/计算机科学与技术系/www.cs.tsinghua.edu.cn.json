@@ -1,0 +1,39 @@
+{
+    "__classname__": "Academy", 
+    "__module__": "models", 
+    "departments": {
+        "all": "http://www.cs.tsinghua.edu.cn/publish/cs/4797/index.html"
+    }, 
+    "departmentsRule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "departmentsUrl": "", 
+    "done": false, 
+    "employees": [], 
+    "eng_name": "www.cs.tsinghua.edu.cn", 
+    "hasDepartments": false, 
+    "name": "计算机科学与技术系", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "a", 
+        "zone_attr": {
+            "class": "box_detail"
+        }, 
+        "zone_tag": "div"
+    }, 
+    "sname": "cs", 
+    "url": "http://www.cs.tsinghua.edu.cn", 
+    "web_engine": "urllib2"
+}

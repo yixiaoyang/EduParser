@@ -1,0 +1,324 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                 "安全所":"http://www.cs.hust.edu.cn/teacher/index?dp=1",
+                 "存储所":"http://www.cs.hust.edu.cn/teacher/index?dp=2",
+                 "计算所":"http://www.cs.hust.edu.cn/teacher/index?dp=3",
+                 "数据所":"http://www.cs.hust.edu.cn/teacher/index?dp=4",
+                 "媒体所":"http://www.cs.hust.edu.cn/teacher/index?dp=5",
+                 "理论所":"http://www.cs.hust.edu.cn/teacher/index?dp=6",
+                 "程中心":"http://www.cs.hust.edu.cn/teacher/index?dp=7",
+                 "学中心":"http://www.cs.hust.edu.cn/teacher/index?dp=8"
+            }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "www.cs.hust.edu.cn", 
+            "name": "计算机科学与技术学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"class":"table_szdw1"}, 
+                "zone_index": 0, 
+                "zone_tag": "table"
+            }, 
+            "sname": "cs", 
+            "url": "http://www.cs.hust.edu.cn/", 
+            "web_engine": "selenium"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "博导":"http://ceee.hust.edu.cn/teacherlist.aspx?sid=29",
+                "硕导":"http://ceee.hust.edu.cn/teacherlist.aspx?sid=30"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "ceee.hust.edu.cn", 
+            "name": "电气与电子工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"class":"detail"}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"id":"list_title"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "ceee", 
+            "url": "http://ceee.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://mat.hust.edu.cn/szll/"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "mat.hust.edu.cn", 
+            "name": "材料科学与工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"content1"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "mat", 
+            "url": "http://mat.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://auto.hust.edu.cn/action-szdw"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "auto.hust.edu.cn", 
+            "name": "自动化学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"onclick":false}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "li", 
+                "zone_attr": {"class":"subMain"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "auto", 
+            "url": "http://auto.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://oei.hust.edu.cn/szll/"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "oei.hust.edu.cn", 
+            "name": "光学与电子信息学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"nr"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "oei", 
+            "url": "http://oei.hust.edu.cn", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "院士":"http://hae.hust.edu.cn/professor.aspx?id=1",
+                "教授":"http://hae.hust.edu.cn/professor.aspx?id=2",
+                "副教授":"http://hae.hust.edu.cn/professor.aspx?id=3",
+                "讲师":"http://hae.hust.edu.cn/professor.aspx?id=4"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "hae.hust.edu.cn", 
+            "name": "水电与数字化工程学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {"target":"main_content"}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {}, 
+                "zone_index": 0, 
+                "zone_tag": ""
+            }, 
+            "sname": "hae", 
+            "url": "http://hae.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "教授":"http://ese.hust.edu.cn/jsdw.asp?kd=%BD%CC%CA%DA",
+                "副教授":"http://ese.hust.edu.cn/jsdw.asp?kd=%B8%B1%BD%CC%CA%DA"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "ese.hust.edu.cn", 
+            "name": "环境科学与工程学院", 
+            "parser": "SimpleTableParser", 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "tr", 
+                "zone_attr": {"bgcolor":"#2750BA"}, 
+                "zone_index": 0, 
+                "zone_tag": "table"
+            }, 
+            "sname": "ese", 
+            "url": "http://ese.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "all":"http://ei.hust.edu.cn/contents/125/4810.html"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "ei.hust.edu.cn", 
+            "name": "电子信息与通信学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"id":"paragraph"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "ei", 
+            "url": "http://ei.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {"all":"http://chem.hust.edu.cn/szll/"}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "chem.hust.edu.cn", 
+            "name": "化学与化工学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"content1"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "chem", 
+            "url": "http://chem.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {"all":"http://maths.hust.edu.cn/index.php?a=shows&catid=2&id=5"}, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "maths.hust.edu.cn", 
+            "name": "数学与统计学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"article_txt"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "maths", 
+            "url": "http://maths.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }, 
+        {
+            "__classname__": "Academy", 
+            "__module__": "models", 
+            "departments": {
+                "教授":"http://phys.hust.edu.cn/a/shiziduiwu/jiaoshou/",
+                "副教授":"http://phys.hust.edu.cn/a/shiziduiwu/fujiaoshou/",
+                "讲师":"http://phys.hust.edu.cn/a/shiziduiwu/jiangshi/",
+                "博士后":"http://phys.hust.edu.cn/a/shiziduiwu/boshihou/",
+                "技术人员":"http://phys.hust.edu.cn/a/shiziduiwu/jishurenyuan/"
+                }, 
+            "done": false, 
+            "employees": [], 
+            "eng_name": "phys.hust.edu.cn", 
+            "name": "物理学院", 
+            "parser": null, 
+            "rule": {
+                "__classname__": "ParseRule", 
+                "__module__": "models", 
+                "attrs": {}, 
+                "parents": [], 
+                "select": [], 
+                "tag_name": "a", 
+                "zone_attr": {"class":"abo_r_nr"}, 
+                "zone_index": 0, 
+                "zone_tag": "div"
+            }, 
+            "sname": "phys", 
+            "url": "http://phys.hust.edu.cn/", 
+            "web_engine": "urllib2"
+        }
+    ], 
+    "academiesUrl": "http://www.hust.edu.cn/SchoolProfiles4.html", 
+    "done": false, 
+    "eng_name": "hust.edu.cn", 
+    "name": "华中科技大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "a", 
+        "zone_attr": {
+            "class": "fleft rightdiv"
+        }, 
+        "zone_index": 0, 
+        "zone_tag": "div"
+    }, 
+    "sname": "hust", 
+    "url": "http://www.hust.edu.cn/"
+}

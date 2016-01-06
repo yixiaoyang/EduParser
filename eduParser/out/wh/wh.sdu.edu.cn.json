@@ -1,0 +1,23 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.wh.sdu.edu.cn/html/jxyb.html", 
+    "done": false, 
+    "eng_name": "wh.sdu.edu.cn", 
+    "name": "山东大学(威海)", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "wh", 
+    "url": "http://www.wh.sdu.edu.cn/"
+}

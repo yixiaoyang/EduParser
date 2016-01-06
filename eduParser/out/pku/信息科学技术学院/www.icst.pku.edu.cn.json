@@ -1,0 +1,35 @@
+{
+    "__classname__": "Academy", 
+    "__module__": "models", 
+    "departments": {}, 
+    "departmentsRule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "departmentsUrl": "", 
+    "done": false, 
+    "employees": [], 
+    "eng_name": "www.icst.pku.edu.cn", 
+    "hasDepartments": false, 
+    "name": "计算机科学技术研究所", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "icst", 
+    "url": "http://www.icst.pku.edu.cn/", 
+    "web_engine": "urllib2"
+}

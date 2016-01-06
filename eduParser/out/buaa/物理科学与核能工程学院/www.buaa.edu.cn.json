@@ -1,0 +1,23 @@
+{
+    "__classname__": "Academy", 
+    "__module__": "models", 
+    "departments": {}, 
+    "done": false, 
+    "employees": [], 
+    "eng_name": "www.buaa.edu.cn", 
+    "name": "物理科学与核能工程学院", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "buaa", 
+    "url": "http://www.buaa.edu.cn/xyykc/bhyxjs/lgk/66828.htm", 
+    "web_engine": "urllib2"
+}

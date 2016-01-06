@@ -1,0 +1,22 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.uestc.edu.cn/?ch/4", 
+    "done": false, 
+    "eng_name": "uestc.edu.cn", 
+    "name": "电子科技大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "sname": "uestc", 
+    "url": "http://www.uestc.edu.cn/"
+}

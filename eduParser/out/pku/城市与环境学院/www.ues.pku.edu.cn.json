@@ -1,0 +1,39 @@
+{
+    "__classname__": "Academy", 
+    "__module__": "models", 
+    "departments": {
+        "all": "http://www.ues.pku.edu.cn/szdw/personal/teachers.asp"
+    }, 
+    "departmentsRule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "", 
+        "zone_attr": {}, 
+        "zone_tag": ""
+    }, 
+    "departmentsUrl": "", 
+    "done": false, 
+    "employees": [], 
+    "eng_name": "www.ues.pku.edu.cn", 
+    "hasDepartments": false, 
+    "name": "城市与环境学院", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {}, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "a", 
+        "zone_attr": {
+            "id": "list"
+        }, 
+        "zone_tag": "table"
+    }, 
+    "sname": "ues", 
+    "url": "http://www.ues.pku.edu.cn/", 
+    "web_engine": "urllib2"
+}

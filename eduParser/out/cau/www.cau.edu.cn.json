@@ -1,0 +1,25 @@
+{
+    "__classname__": "College", 
+    "__module__": "models", 
+    "academies": [], 
+    "academiesUrl": "http://www.cau.edu.cn/col/col10227/index.html", 
+    "done": false, 
+    "eng_name": "www.cau.edu.cn", 
+    "name": "中国农业大学", 
+    "parser": null, 
+    "rule": {
+        "__classname__": "ParseRule", 
+        "__module__": "models", 
+        "attrs": {
+            "class": "depar-t"
+        }, 
+        "parents": [], 
+        "select": [], 
+        "tag_name": "span", 
+        "zone_attr": {}, 
+        "zone_index": 0, 
+        "zone_tag": ""
+    }, 
+    "sname": "cau", 
+    "url": "http://www.cau.edu.cn/"
+}
